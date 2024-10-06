@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rfcmarkup pre {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.rfcmarkup .grey {
+  color: #666;
+}
+
+.rfcmarkup .h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rfcmarkup .h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rfcmarkup .h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rfcmarkup .h4 {
+  font-weight: bold;
+}
+
+.rfcmarkup a {
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+.dark .rfcmarkup .grey {
+  color: #999;
+}
+
+.dark .rfcmarkup a {
+  color: #66B2FF;
+}

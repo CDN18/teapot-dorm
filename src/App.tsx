@@ -18,8 +18,8 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center">
-      <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md max-w-2xl w-full mb-4">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center px-5">
+      <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-2xl mb-4">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center">
             <Coffee className="text-brown-600 dark:text-gray-200 w-12 h-12 mr-4" />
@@ -44,7 +44,7 @@ function App() {
         </div>
       </div>
       
-      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md max-w-2xl w-full mb-4">
+      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md w-full max-w-2xl mb-4 overflow-x-auto">
         <button
           onClick={() => setIsRfcExpanded(!isRfcExpanded)}
           className="flex items-center justify-between w-full text-left text-gray-800 dark:text-gray-200"

@@ -45,3 +45,21 @@
 .dark .rfcmarkup a {
   color: #66B2FF;
 }
+
+@media (max-width: 725px) {
+  .rfcmarkup pre {
+    font-size: calc(0.375em + (0.875 - 0.375) * ((100vw - 20em) / (45.3125 - 20)));
+  }
+  .rfcmarkup .h1 {
+    font-size: calc(max(0.375em + (0.875 - 0.375) * ((100vw - 20em) / (45.3125 - 20)), 0.48em + (1.125 - 0.48) * ((100vw - 20em) / (45.3125 - 20))));
+  }
+  .rfcmarkup .h2 {
+    font-size: calc(max(0.375em + (0.875 - 0.375) * ((100vw - 20em) / (45.3125 - 20)), 0.43em + (1 - 0.43) * ((100vw - 20em) / (45.3125 - 20))));
+  }
+  .rfcmarkup .h3 {
+    font-size: calc(max(0.375em + (0.875 - 0.375) * ((100vw - 20em) / (45.3125 - 20)), 0.375em + (0.875 - 0.375) * ((100vw - 20em) / (45.3125 - 20))));
+  }
+  .rfcmarkup .h4 {
+    font-size: calc(max(0.375em + (0.875 - 0.375) * ((100vw - 20em) / (45.3125 - 20)), 0.35em + (0.8125 - 0.35) * ((100vw - 20em) / (45.3125 - 20))));
+  }
+}

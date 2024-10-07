@@ -22,7 +22,7 @@ function App() {
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md max-w-2xl w-full mb-4">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center">
-            <Coffee className="text-brown-600 dark:text-brown-400 w-12 h-12 mr-4" />
+            <Coffee className="text-brown-600 dark:text-gray-200 w-12 h-12 mr-4" />
             <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200">HTTP 418: I'm a Teapot</h1>
           </div>
           <ThemeToggle />
